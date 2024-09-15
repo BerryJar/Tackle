@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="381.76172"
+   height="77.392578"
+   viewBox="0 0 381.76172 77.392578"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient6">
+      <stop
+         style="stop-color:#a1c0ff;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+      <stop
+         style="stop-color:#0e3b83;stop-opacity:1;"
+         offset="1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="swatch2">
+      <stop
+         style="stop-color:#e7efff;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient6"
+       id="linearGradient8"
+       x1="11.933801"
+       y1="208.17587"
+       x2="393.69553"
+       y2="208.17587"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-11.933801,-169.47958)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:100px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold';letter-spacing:-4px;word-spacing:0px;fill:url(#linearGradient8);fill-opacity:1;stroke-width:7.181"
+       x="3.0470822"
+       y="245.45615"
+       id="text2"><tspan
+         id="tspan2"
+         x="3.0470822"
+         y="245.45615"
+         style="font-size:100px;fill:url(#linearGradient8);fill-opacity:1">FanBall</tspan></text>
+  </g>
+</svg>
