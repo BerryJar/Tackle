@@ -43,6 +43,11 @@ export const userTable = pgTable("user", {
 		mode: "date"
 	}).notNull(),
 	isPrivate: boolean("is_private").notNull().default(false),
+	location: text("location"),
+	bio: text("bio"),
+	website: text("website"),
+	occupation: text("occupation"),
+
 });
 
 export const emailVerificationTable = pgTable("email_verification", {

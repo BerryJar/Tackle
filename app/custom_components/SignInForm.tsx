@@ -106,7 +106,7 @@ export function SignInForm() {
                         render={({ field }) => (
                             <FormItem>
                                 <FormControl>
-                                    <Input className="bg-black text-zinc-400 w-96" type="email" placeholder="your@email.com..." {...field} />
+                                    <Input className="bg-white dark:bg-black text-zinc-400 w-96" type="email" placeholder="your@email.com..." {...field} />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
@@ -115,7 +115,7 @@ export function SignInForm() {
                     {!showPasswordFields && (
                         <Button 
                             type="button" 
-                            className="bg-sky-800 text-black mt-4 w-96"
+                            className="bg-sky-800 dark:bg-black dark:text-white text-white dark:hover:bg-sky-800 mt-4 w-96"
                             onClick={() => setShowPasswordFields(true)}
                         >
                             Continue
@@ -129,13 +129,13 @@ export function SignInForm() {
                                 render={({ field }) => (
                                     <FormItem>
                                         <FormControl>
-                                            <Input className="bg-black text-zinc-400 w-96" placeholder="Password" type="password" {...field} />
+                                            <Input className="bg-white dark:bg-black text-zinc-400 w-96" placeholder="Password" type="password" {...field} />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
                                 )}
                             />
-                            <Button type="submit" className="bg-sky-800 text-black mt-4 w-96">Continue</Button>
+                            <Button type="submit" className="bg-sky-800 dark:bg-black text-white dark:text-black mt-4 w-96">Continue</Button>
                         </>
                     )}
                 </form>

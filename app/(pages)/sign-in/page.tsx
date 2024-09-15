@@ -13,18 +13,23 @@ export default async function SignUp() {
     }
 
     return(
-        <div id="MainDiv" className="flex h-screen w-full bg-zinc-800">
-            <ModeToggle></ModeToggle>
-            <div id="LeftBox" className="w-1/2 bg-zinc-800">
+        <div id="MainDiv" className="flex h-screen w-full dark:bg-zinc-800 bg-slate-200">
+            
+            <div id="LeftBox" className="w-1/2 dark:bg-zinc-800 bg-slate-200">
             </div>
-            <div id="RightBox" className="flex flex-col w-1/2 bg-black rounded-xl border-l border-t border-b border-zinc-700 shadow-lg justify-center items-center text-center">
+            <div id="RightBox" className="flex flex-col w-1/2  dark:bg-black bg-white rounded-xl border-l border-t border-b dark:border-zinc-700 border-zinc-100 shadow-lg justify-center items-center text-center">
                 <div >
-                    <h5 className="text-3xl font-bold">Sign in to your account</h5>
-                    <p className="text-zinc-400 p-5">Enter your email address to sign in.</p>
+                
+                    <h5 className="text-3xl font-bold dark:text-white text-slate-500">Sign in to your account</h5>
+                    <p className="text-slate-400 dark:text-neutral-400 p-5">Enter your email address to sign in.</p>
                 </div>
                 <SignInForm></SignInForm>
-                <Link href="/sign-up" className="text-zinc-400 p-5 w-96">... or click here to sign up.</Link>
-            
+                
+                <Link href="/sign-up" className="text-slate-400 dark:text-neutral-400 p-5 w-96">... or click here to sign up.</Link>
+                <div className="text-slate-500">
+                <ModeToggle></ModeToggle>
+                </div>
+                
             </div>
             
         </div>
